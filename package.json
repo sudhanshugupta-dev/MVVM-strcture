@@ -1,6 +1,6 @@
 {
   "name": "create-mvvm-structure",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "CLI tool to generate MVVM folder structure for React Native Expo",
   "main": "bin/index.js",
   "bin": {
