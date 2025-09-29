@@ -1,6 +1,6 @@
 {
   "name": "create-mvvm-structure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to generate MVVM folder structure for React Native Expo",
   "main": "bin/index.js",
   "bin": {
@@ -13,7 +13,6 @@
     "test:cli": "cd test-expo-project && node ../bin/index.js --force",
     "test:link": "npm link && cd test-expo-project && npm link create-mvvm-structure"
   },
-
   "keywords": [
     "expo",
     "react-native",
@@ -27,7 +26,7 @@
     "fs-extra": "^11.3.2",
     "inquirer": "^8.2.7"
   },
- "files": [
+  "files": [
     "bin/",
     "lib/",
     "templates/"
