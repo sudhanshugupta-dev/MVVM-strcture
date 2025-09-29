@@ -139,7 +139,23 @@ Your [`package.json`](package.json) is the heart of your project configuration. 
    npm install -g create-mvvm-structure
    ```
 
-2. **Run in your Expo project directory:**
+🛠️ Usage
+
+ 2  Run the CLI in your project directory:
+
+# Generate structure (default)
+   npx create-mvvm-structure
+
+# Force overwrite existing files overwrite existing code 
+   npx create-mvvm-structure --force
+
+# Clean old structure before generating
+   npx create-mvvm-structure --overwrite
+
+# Skip installing dependencies
+  npx create-mvvm-structure --skip-deps
+
+3. **Run in your Expo project directory:**
    ```sh
    npx create-mvvm-structure
    # Options:
@@ -148,7 +164,7 @@ Your [`package.json`](package.json) is the heart of your project configuration. 
    #   --skip-deps      Skip installing dependencies
    ```
 
-3. **Start your Expo project:**
+4. **Start your Expo project:**
    ```sh
    npm start
    # or
