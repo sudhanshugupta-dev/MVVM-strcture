@@ -143,14 +143,20 @@ Your [`package.json`](package.json) is the heart of your project configuration. 
 
  2  Run the CLI in your project directory:
 
-# Generate structure (default)
+  **Generate structure (default):**
+    ```sh
    npx create-mvvm-structure
+   ```
+   
+  **Force overwrite existing files overwrite existing code :**
+    ```sh
+        npx create-mvvm-structure --force
+   ```
 
-# Force overwrite existing files overwrite existing code 
-   npx create-mvvm-structure --force
-
-# Clean old structure before generating
-   npx create-mvvm-structure --overwrite
+  **Clean old structure before generating**
+     ```sh
+         npx create-mvvm-structure --overwrite
+   ```
 
 # Skip installing dependencies
   npx create-mvvm-structure --skip-deps
